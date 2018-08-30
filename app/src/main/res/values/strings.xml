@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SensoresV2</string>
+    <string name="btn_lista_sensores">Listar Sensores</string>
+    <string name="btn_sensor_proximidade">Sensor de Proximidade</string>
+    <string name="txv_proximidade_longe">Longe</string>
+    <string name="txv_proximidade_perto">Perto</string>
+</resources>
