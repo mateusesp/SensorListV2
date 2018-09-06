@@ -5,4 +5,7 @@
     <string name="txv_proximidade_longe">Longe</string>
     <string name="txv_proximidade_perto">Perto</string>
     <string name="btn_detecta_voz">Detectar Voz</string>
+    <string name="btn_sensor_luminosidade">Sensor de Luminosidade</string>
+    <string name="txv_luminosidade_claro">Claro</string>
+    <string name="txv_luminosidade_escuro">Escuro</string>
 </resources>

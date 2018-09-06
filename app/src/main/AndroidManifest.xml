@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ListaSensoresActivity" />
-        <activity android:name=".ProximidadeActivity"></activity>
+        <activity android:name=".ProximidadeActivity" />
+        <activity android:name=".LuminosidadeActivity"></activity>
     </application>
 
 </manifest>

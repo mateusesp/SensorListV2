@@ -2,28 +2,25 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lnlBackgroundLuminosidade"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".LuminosidadeActivity">
 
-    <Button
-        android:id="@+id/btnListaSensores"
+    <TextView
+        android:id="@+id/txvTextoLuminosidade"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn_lista_sensores" />
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="32sp" />
 
-    <Button
-        android:id="@+id/btnSensorProximidade"
+    <TextView
+        android:id="@id/txvTextoLuminosidade"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn_sensor_proximidade" />
-
-    <Button
-        android:id="@+id/btnSensorLuminosidade"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_sensor_luminosidade" />
-
+        android:textColor="@android:color/white"
+        android:textSize="32sp" />
 
 </LinearLayout>

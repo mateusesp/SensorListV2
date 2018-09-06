@@ -14,6 +14,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button btnListaSensores = findViewById(R.id.btnListaSensores);
+        Button btnSensorProximidade = findViewById(R.id.btnSensorProximidade);
+        Button btnSensorLuminosidade = findViewById(R.id.btnSensorLuminosidade);
+
         btnListaSensores.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -21,11 +24,19 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        Button btnSensorProximidade = findViewById(R.id.btnSensorProximidade);
+
         btnSensorProximidade.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ProximidadeActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnSensorLuminosidade.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, LuminosidadeActivity.class);
                 startActivity(intent);
             }
         });
